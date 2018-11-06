@@ -1,0 +1,21 @@
+---
+title: "Lab6_HarryPotter"
+author: "Kirby Bartlett"
+date: "November 6, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read in the harry potter agression full data 
+
+```{r, message=FALSE, include=FALSE}
+library(tidyverse)
+
+hp_data <- read_csv("harry_potter_aggression_full.csv")
+
+```
+
+sup 
